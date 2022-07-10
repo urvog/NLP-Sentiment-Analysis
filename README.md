@@ -72,7 +72,7 @@ Finalmente se ensamblara las predicciones del dataset de TEst por cada sentimien
 
 Se procede con la limpieza de los textos eliminando signos de puntacion y la generacion de tokens para el modelo de clasificacion.
 
-## Modelo
+## Modelo CNN
 
 Se ha empleado una CNN con al siguiente arquitectura:
 
@@ -102,6 +102,11 @@ _________________________________________________________________
 None
 
 ```
+
+## Modelo BERT
+
+Se ha desarrollado también un modelo transformer BERT de clasificación binaria utilizando las técnicas de Fine-Tuning con los metodos de entrenamiento propios de BERT. Al igual que para la CNN tambien se ha optado por entrenar varios modelos por cada sentimiento y juntar los resultados de las predicciones en un solo dataset disponible en la carpeta "results"
+
 
 # Resultados
 
@@ -156,8 +161,33 @@ Graficas de Tranining
 
 Finalmente y con todas las predicciones generadas por cada sentimiento se procede a ensamblar en un solo archivo. Se toma como parametro de un sentimiento valido y detectado a aquel con una probabilidad mayor al 75%.
 
+# Resultados con Transformer Fine Tuning BERT
+
+![](img/bert_anger.png)
+
+![](img/bert_anticipation.png)
+
+![](img/bert_disgust.png)
+
+![](img/bert_fear.png)
+
+![](img/bert_joy.png)
+
+![](img/bert_optimism.png)
+
+![](img/bert_pessimism.png)
+
+![](img/bert_sadness.png)
+
+![](img/bert_surprise.png)
+
+![](img/bert_trust.png)
+
+
 # Conclusiones
 
 Se ha construido varios modelos binarios de clasificación de sentimiento para resolver el problema, esto ha permitido obtener unas predicciones en "results/" interesantes.
+
+Los resultados con transformer BERT arroja mejores resultados que los obtenidos con CNN. 
 
 
