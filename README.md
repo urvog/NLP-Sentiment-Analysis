@@ -53,7 +53,7 @@ Cada alumno deberá entregar a través de esta tarea habilitada en AV el archivo
 
 Se tiene un dataset para entrenamiento con 3561 tweets con diferentes tipos de sentimientos (odio,anticipacion, disgusto, miedo, alegría, amor, optimismo, pesimismo, tristeza, sorpresa y confianza). 
 
-El dataset de tes tiene 679 tweets para sus respectiva prediccion.
+El dataset de test pressenta 679 tweets para sus respectivas predicciones.
 
 
 # EDA
@@ -103,7 +103,7 @@ None
 
 # Resultados
 
-Para la mayoria de los sentimientos se obtuvieron un accuracy entre 75% y 85%, sin embargo por la cantidad de datos del dataset de entrenamiento, el modelo tiene a sobreajustarse.
+Para la mayoria de los sentimientos se obtuvieron un accuracy entre 75% y 85%, sin embargo por la cantidad de datos del dataset de entrenamiento el modelo tiene a sobreajustarse.
 
 Graficas de Tranining
 
@@ -150,3 +150,7 @@ Graficas de Tranining
 - Confianza
 
 ![](img/accuracytrust.png)
+
+
+Finalmente y con todas las predicciones generadas por cada sentimiento se procede a ensamblar en un solo archivo. Se toma como parametro de un sentimiento valido y detectado a aquel con una probabilidad mayor al 75%.
+
