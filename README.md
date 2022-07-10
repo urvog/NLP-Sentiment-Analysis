@@ -60,6 +60,8 @@ El dataset de test pressenta 679 tweets para sus respectivas predicciones.
 
 Al analizar este dataset se identificó que un tweet puede contener uno o varios sentimientos. La mayoria de los tweets se clasifican en dos sentimientos, por lo que no es factible construir un solo modelo para resolver este problema.
 
+Por otra parte los datos también se encuentra desbalanceados lo que puede provocar algunos errores de sobre ajuste, sobre todo al trabajar con con dataset con tan pocos datos.
+
 ## Solución
 
 El problema consiste en una clasificacion multiclase de sentimientos, pero debido a que cada tweet puede tener uno o mas sentimientos, de esta forma se procede a separar el dataset por cada sentimiento y luego entrenamos el modelo por cada sentimiento.
@@ -103,7 +105,7 @@ None
 
 # Resultados
 
-Para la mayoria de los sentimientos se obtuvieron un accuracy entre 75% y 85%, sin embargo por la cantidad de datos del dataset de entrenamiento el modelo tiene a sobreajustarse.
+Para la mayoria de los sentimientos se obtuvieron un accuracy entre 75% y 90%, sin embargo por la cantidad de datos del dataset de entrenamiento el modelo tiene a sobreajustarse.
 
 Graficas de Tranining
 
@@ -153,4 +155,9 @@ Graficas de Tranining
 
 
 Finalmente y con todas las predicciones generadas por cada sentimiento se procede a ensamblar en un solo archivo. Se toma como parametro de un sentimiento valido y detectado a aquel con una probabilidad mayor al 75%.
+
+# Conclusiones
+
+Se ha construido varios modelos binarios de clasificación de sentimiento para resolver el problema, esto ha permitido obtener unas predicciones en "results/" interesantes.
+
 
