@@ -1,15 +1,21 @@
 # NLP-Sentiment-Analysis
+
 ![](img/bg.jpeg)
-Practica de Analisis de sentimiento
-Master mIA3 - Universidad de Valencia
-Nombre: Mauricio Arancibia
+
+**Practica de Analisis de sentimiento**
+
+**Master mIA3 - Universidad de Valencia**
+
+**Nombre: Mauricio Arancibia**
 
 ## Requerimientos
+
 - tensorflow
 - sklearn
 - transformer
 
 ## Descripcion del Problema
+
 Se trata de un problema de clasificación multietiqueta en el que tenéis que etiquetar un conjunto de tweets de acuerdo a 11 sentimientos ('anger', 'anticipation', 'disgust', 'fear', 'joy', 'love', 'optimism', 'pessimism', 'sadness', 'surprise', 'trust').
 Disponéis de un conjunto de 3561 tweets etiquetas para entrenar y validar el modelo o modelos necesarios, en el archivo 'sem_eval_train_es.csv'.
 
@@ -114,6 +120,7 @@ Graficas de Tranining
 ![](img/accuracydisgust.png)
 
 - Miedo
+
 ![](img/accuracyfear.png)
 
 - Alegría
