@@ -159,7 +159,7 @@ Graficas de Tranining
 ![](img/accuracytrust.png)
 
 
-Finalmente y con todas las predicciones generadas por cada sentimiento se procede a ensamblar en un solo archivo. Se toma como parametro de un sentimiento valido y detectado a aquel con una probabilidad mayor al 75%.
+Finalmente y con todas las predicciones generadas por cada sentimiento se procede a ensamblar en un solo archivo. Se toma como parametro y como un sentimiento valido y detectado la probabilidad mayor al 75%.
 
 # Resultados con Transformer Fine Tuning BERT
 
@@ -184,10 +184,11 @@ Finalmente y con todas las predicciones generadas por cada sentimiento se proced
 ![](img/bert_trust.png)
 
 
-# Conclusiones
+# Conclusiones y recomendaciones
 
-Se ha construido varios modelos binarios de clasificación de sentimiento para resolver el problema, esto ha permitido obtener unas predicciones en "results/" interesantes.
+Se ha construido varios modelos binarios de clasificación por cada sentimiento para resolver el trabajo. En la primera aproximación se construye un modelo utilizando redes neuronales convolucionales (CNN), para la segunda aproximación se construye un modelo basado en transformers (BERT) con Fine-Tuning sobre los datos disponibles en el dataset de Training.
 
-Los resultados con transformer BERT arroja mejores resultados que los obtenidos con CNN. 
+De los resultados obtenidos y a través de una rápida revisión de las predicciones de ambos modelos, se consigue mejores resultados a través del modelo BERT, lo que demuestra su potencia predictiva con pocos datos de entrenamiento.
+
 
 
