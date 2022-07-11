@@ -132,7 +132,7 @@ Graficas de Tranining
 
 - Alegría
 
-![](img/accuracyajoy.png)
+![](img/accuracyjoy.png)
 
 - Amor
 
@@ -140,11 +140,11 @@ Graficas de Tranining
 
 - Optimismo
 
-![](img/accuracyoptismism.png)
+![](img/accuracyoptimism.png)
 
 - Pesimismo
 
-![](img/accuracypesimism.png)
+![](img/accuracypessimism.png)
 
 - Tristeza
 
