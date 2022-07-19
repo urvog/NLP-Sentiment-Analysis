@@ -188,7 +188,7 @@ Finalmente y con todas las predicciones generadas por cada sentimiento se proced
 
 Se ha construido varios modelos binarios de clasificación por cada sentimiento para resolver el trabajo. En la primera aproximación se construye un modelo utilizando redes neuronales convolucionales (CNN), para la segunda aproximación se construye un modelo basado en transformers (BERT) con Fine-Tuning sobre los datos disponibles en el dataset de Training.
 
-De los resultados obtenidos se consigue mejores resultados a través del modelo BERT, lo que demuestra su potencia predictiva con pocos datos de entrenamiento, pero esto implica un mayor costo computacional frente a modelos clasicos de CNN.
+De los resultados obtenidos se consigue mejores resultados a través del modelo BERT, lo que demuestra su potencia predictiva con pocos datos de entrenamiento, pero esto implica un mayor costo computacional frente a modelos CNN.
 
 
 
